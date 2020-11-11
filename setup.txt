@@ -1,0 +1,13 @@
+On Windows:
+
+1. Install MinGW
+
+2. Go to Environment Variables - System Variables then
+   set/insert on Path => C:\MinGW\bin
+
+- On VScode install C/C++ extension by Microsoft
+  klik "Run Code" icon
+
+3. Run a C program on terminal:
+    $ g++ namaFile.cpp -o namaFile   => create an namaFile.exe file
+    $ namaFile                                  => execute .exe
