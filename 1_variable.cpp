@@ -9,11 +9,12 @@ using namespace std;
 
 int main() {
     int myNum = 15;
-    double myFloatNum = 5.99;
+    float myFloatNum = 5.99;
+    double myDoubleNum = 5.99;
     char myLetter = 'D';
     string myText = "Hello"; 
     bool myBoolean = true;
 
-    cout << myNum << '\n' << myFloatNum << '\n' << myLetter << '\n' << myText << '\n' << myBoolean;
+    cout << myNum << '\n' << myFloatNum << '\n' << myDoubleNum << '\n' << myLetter << '\n' << myText << '\n' << myBoolean;
     return 0;
 }
