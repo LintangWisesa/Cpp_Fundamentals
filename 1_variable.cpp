@@ -15,6 +15,18 @@ int main() {
     string myText = "Hello"; 
     bool myBoolean = true;
 
-    cout << myNum << '\n' << myFloatNum << '\n' << myDoubleNum << '\n' << myLetter << '\n' << myText << '\n' << myBoolean;
+    cout << myNum << '\n' << myFloatNum << '\n' << myDoubleNum << '\n' << myLetter << '\n' << myText << '\n' << myBoolean << '\n';
+    
+    // references
+    string food = "Pizza";
+    string &meal = food;
+    cout << meal << '\n';
+
+    // & symbol can be used to get memory address
+    // When a variable is created in C++, a memory address is assigned to the variable. 
+    // And when we assign a value to the variable, it is stored in this memory address.
+    // The memory address is in hexadecimal form (0x..)
+    
+    cout << &food;
     return 0;
 }
