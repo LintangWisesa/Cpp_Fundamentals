@@ -10,4 +10,7 @@ On Windows:
 
 3. Run a C program on terminal:
     $ g++ namaFile.cpp -o namaFile   => create an namaFile.exe file
-    $ namaFile                                  => execute .exe
+    $ gcc namaFile.cpp -o namaFile   => create an namaFile.exe file
+
+    $ namaFile                       => execute .exe on Windows
+    $ ./namaFile                     => execute .exe on Ubuntu (WSL)

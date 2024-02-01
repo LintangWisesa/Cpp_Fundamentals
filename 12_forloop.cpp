@@ -17,19 +17,19 @@ int main() {
 
     // break
     for (int i = 0; i < 10; i++) {
-    if (i == 4) {
-        break;
-    }
-       cout << i << "\n";
-    }
+        if (i == 4) {
+            break;
+        }
+        cout << i << "\n";
+        }
     cout << "\n";
 
     // continue
     for (int i = 0; i < 10; i++) {
-    if (i == 4) {
-        continue;
-    }
-       cout << i << "\n";
+        if (i == 4) {
+            continue;
+        }
+        cout << i << "\n";
     }
     cout << "\n";
 
